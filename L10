@@ -1,0 +1,93 @@
+S="Janibasha"
+# idx=0
+# for j in S:
+#     print(idx,j)
+#     idx+=1
+# print(f"number of letters in the given word is :{idx}")
+print(len(S))
+
+
+# T="Hello"
+# o="aeiou"
+# # print(sum(1 for c in T if c in o))
+# for c in T if c in o:
+#     c+=1
+#     print(c)
+T = "Hello"
+o = "aeiou"
+sum=0
+for c in T:
+    if c in o:
+        sum+=1
+print(sum)
+
+
+
+# L=["apple","orange","banana","Kiwi"]
+# idx=0
+# # for index,name in enumerate(L):
+# #     print(f"Fruit at Index {index}: is {name}")
+
+# for i in L:
+#     print(idx,i)
+#     idx+=1
+s=[]
+print(s.append(10))
+print(s)
+
+s="JaniBasha"
+print(s[::-1])
+
+
+def fact(n):
+    return 1 if n ==0 else n * fact(n-1)
+print(fact(6))
+
+
+print(" ".join(["A",   "B",   "C"]))
+
+print(2 * 2 ** 3)
+
+#palindrome
+s="bob"
+print(s==s[::-1])
+
+print([1, 2] + [3, 4])
+
+List=[2,3,4]
+mul=1
+for i in List:
+    print(i)
+    print(List)
+	
+
+
+a="10"
+b=10
+print(a == str(b))
+
+num=[1,2,3]
+total=sum(num)
+print(total)
+
+x="123"
+print(x.isdigit() and x.isalpha())
+
+x="123"
+print(x.isdigit() and x.isalpha())
+
+a,b=0,1
+for i in range(10):
+    print(a)
+    a,b=b,a+b
+	
+
+sq=[i * i for i in range(10)]
+print(sq)
+
+
+
+d = {x: x**2 for x in range(3)}
+print(d)
+
+
